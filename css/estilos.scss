@@ -1,0 +1,105 @@
+
+
+ol, ul,li {
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+    background-color: #f2f2f2;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+
+    .menu__header img {
+        height: 3rem;
+    }
+
+    .menu__list, .menu__nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .menu__list__item a {
+        font-weight: bold;
+        
+    }
+    
+    .menu__list__item:hover, .menu__list__item__contato:hover {
+        color: wheat;
+    }
+    
+    .menu__list__item__contato {
+        display: none;
+    }
+}
+
+.title__div {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #E0F2F7;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem;
+
+    .title__bio {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+    
+    .title__subsection {
+        font-size: 1.3rem;
+        font-weight: lighter;
+        margin-bottom: 1rem;
+    }
+    
+    .title__network {
+        display: flex;
+        gap: 2rem;
+        align-items: flex-start;
+        
+    }
+    
+    .title__network__item:hover {
+        color: bisque;
+        
+    }
+
+    .title__profile {
+        width: 18rem;  
+     } 
+}
+
+
+
+.about {
+    padding: 4rem;
+    background-color: #D8CEF6;
+
+    .about__container {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .about__container img {
+        width: 11rem;
+    }
+    
+    .about__title{
+        font-size: 2rem;
+    }
+    
+    .about__paragraph {
+        font-size: 1.4;
+    }
+
+}
+
+
+
+
+

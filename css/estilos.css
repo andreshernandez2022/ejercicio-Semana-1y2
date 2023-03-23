@@ -1,0 +1,78 @@
+ol, ul, li {
+  list-style: none;
+}
+
+.menu {
+  display: flex;
+  background-color: #f2f2f2;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+}
+.menu .menu__header img {
+  height: 3rem;
+}
+.menu .menu__list, .menu .menu__nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.menu .menu__list__item a {
+  font-weight: bold;
+}
+.menu .menu__list__item:hover, .menu .menu__list__item__contato:hover {
+  color: wheat;
+}
+.menu .menu__list__item__contato {
+  display: none;
+}
+
+.title__div {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #E0F2F7;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4rem;
+}
+.title__div .title__bio {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.title__div .title__subsection {
+  font-size: 1.3rem;
+  font-weight: lighter;
+  margin-bottom: 1rem;
+}
+.title__div .title__network {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+.title__div .title__network__item:hover {
+  color: bisque;
+}
+.title__div .title__profile {
+  width: 18rem;
+}
+
+.about {
+  padding: 4rem;
+  background-color: #D8CEF6;
+}
+.about .about__container {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.about .about__container img {
+  width: 11rem;
+}
+.about .about__title {
+  font-size: 2rem;
+}
+.about .about__paragraph {
+  font-size: 1.4;
+}/*# sourceMappingURL=estilos.css.map */
